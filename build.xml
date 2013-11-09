@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project default="create_run_jar" name="Create Runnable Jar for Project PigsInSpace">
+    <!--this file was created by Eclipse Runnable JAR Export Wizard-->
+    <!--ANT 1.7 is required                                        -->
+    <target name="create_run_jar">
+        <jar destfile="/Users/arjanl/Documents/workspace/PigsInSpace/target/PigsInSpace.jar" filesetmanifest="mergewithoutmain">
+            <manifest>
+                <attribute name="Main-Class" value="nl.first8.PigsInSpace.Main"/>
+                <attribute name="Class-Path" value="."/>
+            </manifest>
+            <fileset dir="/Users/arjanl/Documents/workspace/PigsInSpace/bin"/>
+        	
+        	<!-- Hazelcast 3.0 -->
+        	<!--
+            <zipfileset excludes="META-INF/*.SF" src="/Users/arjanl/Documents/workspace/PigsInSpace/lib/hazelcast-3.0.2.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="/Users/arjanl/Documents/workspace/PigsInSpace/lib/hazelcast-client-3.0.2.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="/Users/arjanl/Documents/workspace/PigsInSpace/lib/kryo-debug-2.21-all.jar"/>
+            -->
+            <zipfileset excludes="META-INF/*.SF" src="/Users/arjanl/Documents/workspace/PigsInSpace/lib/hazelcast-2.6.3.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="/Users/arjanl/Documents/workspace/PigsInSpace/lib/hazelcast-client-2.6.3.jar"/>
+        	
+            <zipfileset excludes="META-INF/*.SF" src="/Users/arjanl/Documents/workspace/PigsInSpace/lib/lwjgl.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="/Users/arjanl/Documents/workspace/PigsInSpace/lib/slf4j-api-1.7.5.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="/Users/arjanl/Documents/workspace/PigsInSpace/lib/slf4j-simple-1.7.5.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="/Users/arjanl/Documents/workspace/PigsInSpace/lib/lwjgl_util.jar"/>
+        </jar>
+    </target>
+</project>

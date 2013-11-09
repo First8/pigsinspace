@@ -1,0 +1,30 @@
+raspberry pi
+
+10.200.1.149 (green) / monitor
+10.200.1.132
+10.200.1.133
+10.200.1.134
+10.200.1.139 
+10.200.1.137
+
+10.200.1.138
+10.200.1.122
+
+
+
+
+
+
+
+Batch API (12,5d total)
+Profile (4,5d total)
+orderAPI uitbreidingen (5,5d total)
+commandAPI uitbreidingen (6d total)
+Mandate maintenance in Merchant Backoffice and DDP Backoffice (6,5d total)
+DDPS backoffice page for blacklist maintenance (4d total)
+Merchant backoffice page for blacklist maintenance (1.5d total)
+Support initial command api to subsequent order api (2d total)
+Reconciliation (0.5d total)
+Handle R-Codes (3d)
+Logging (3d total)
+
