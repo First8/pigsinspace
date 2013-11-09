@@ -1,6 +1,6 @@
 Hi all!
 
-As promised at JFall 2013, I'v made the source of the PigsInSpace demo available at GitHub.
+As promised at JFall 2013, I've made the source of the PigsInSpace demo available at GitHub.
 
 For those who were not at JFall (why not?!), I gave a presentation called 'Designing distributed programs on a Raspberry Pi cluster'. The demo app I used, called <em>Pigs in Space</em>, shows a huge map with spaceships flying around. The goal is to have as large a map and as many spaceships as possible, while doing collision detection. 
 
