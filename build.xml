@@ -5,7 +5,7 @@
     <target name="create_run_jar">
         <jar destfile="/Users/arjanl/Documents/workspace/PigsInSpace/target/PigsInSpace.jar" filesetmanifest="mergewithoutmain">
             <manifest>
-                <attribute name="Main-Class" value="nl.first8.PigsInSpace.Main"/>
+                <attribute name="Main-Class" value="nl.first8.pigsinspace.Main"/>
                 <attribute name="Class-Path" value="."/>
             </manifest>
             <fileset dir="/Users/arjanl/Documents/workspace/PigsInSpace/bin"/>
